@@ -51,10 +51,10 @@ public class StringCreation {
     public String cleanTextFromSymbols (String text1){
 //        text1 = text1.replaceAll("['p{L}]",".");
         text1 = text1.replaceAll("[./,]"," ");
-        String CleanedText = text1.replaceAll("[^a-zA-Zа-яА-ЯёЁ\\s]+", "");
-        CleanedText = CleanedText.replaceAll("\\s+", " ");
+        String cleanedText = text1.replaceAll("[^a-zA-Zа-яА-ЯёЁ\\s]+", "");
+        cleanedText = cleanedText.replaceAll("\\s+", " ");
 
-        return CleanedText;
+        return cleanedText;
 
     }
 
