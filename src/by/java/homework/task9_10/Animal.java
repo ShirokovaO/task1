@@ -1,4 +1,4 @@
-package by.java.homework.task9;
+package by.java.homework.task9_10;
 
 public abstract class Animal {
 //    Поля в классе животное: окрас, максимальная продолжительность жизни, тип еды которой питаются (мясо, насекомые, растения).Определить методы в классе животное: (издание звуков, животное играет)
@@ -44,5 +44,9 @@ public abstract class Animal {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getLife() {
+        return life;
     }
 }

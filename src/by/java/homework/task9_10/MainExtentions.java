@@ -1,6 +1,4 @@
-package by.java.homework.task9;
-
-import java.util.SortedMap;
+package by.java.homework.task9_10;
 
 public class MainExtentions {
     public static void main(String[] args) {
@@ -16,7 +14,7 @@ public class MainExtentions {
         dog.dogJump("King");
         Bird bird = new Bird("black", 10, "insects", "соловей", 1500);
         Bird bird1 = new Bird("разноцветный", 25, "орехи", "попугай", 500);
-        Bird bird2 = new Bird("черно-белый", 10, "лягушки", "аист", 550);
+        Bird bird2 = new Bird("черно-белый", 10, "лягушки", "аист", 500);
         bird.soundProduction();
         bird.peck("Дятел");
         bird.hatchEggs("кукушка");
@@ -62,6 +60,23 @@ public class MainExtentions {
         System.out.println("********************* УДАЛИТЬ ИЗ ЗООПАРКА******************");
 
         zoo1.excludeAnimal(2);
+
+        System.out.println("\n********************* task 10 _EQUALS_******************");
+
+        System.out.println("compairing dogs " + dog2.equals(dog1));
+        System.out.println("compairing birds " + bird1.equals(bird2));
+
+        System.out.println("\n********************* task 10 _HASHCODE_******************");
+
+        Dog dog3 = new Dog("пятнистый", 14, "корм", "Вулфи", "Далматинец", 20);
+        Bird bird3 = new Bird("черно-белый", 10, "лягушки", "аист", 500);
+
+        System.out.println("dogs hashcode: " + dog2.hashCode());
+        System.out.println("dogs hashcode: " + dog3.hashCode());
+
+        System.out.println("birds hashcode: " + bird3.hashCode());
+        System.out.println("birds hashcode: " + bird1.hashCode());
+
 
 
 

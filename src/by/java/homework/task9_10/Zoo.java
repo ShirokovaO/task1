@@ -1,6 +1,5 @@
-package by.java.homework.task9;
+package by.java.homework.task9_10;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
