@@ -37,15 +37,6 @@ public class Dog extends Animal {
         return " имя: " + name + " порода: " + breed + " средний вес: " + weight + super.info();
     }
 
-//    @Override
-//    public String toString() {
-//        return " Dog{" +
-//                "name='" + name + '\'' +
-//                ", breed='" + breed + '\'' +
-//                ", weight=" + weight + super.toString() +
-//                '}';
-//    }
-
 //    1. Переопределить метод equals и hashcode в классах Птица и Собака из предыдущего задания.
 
     public boolean equals(Object obj) {
